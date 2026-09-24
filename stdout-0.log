@@ -1,0 +1,130 @@
+======================
+== Start JupyterLab ==
+======================
+
+[I 2026-09-24 16:21:10.681 ServerApp] Extension package jupyter_ai_acp_client took 0.2803s to import
+[I 2026-09-24 16:21:11.414 ServerApp] Extension package jupyter_server_mcp took 0.6997s to import
+[I 2026-09-24 16:21:11.438 ServerApp] jupyter_ai_acp_client | extension was successfully linked.
+[I 2026-09-24 16:21:11.441 ServerApp] jupyter_ai_chat_commands | extension was successfully linked.
+[I 2026-09-24 16:21:11.444 ServerApp] jupyter_ai_persona_manager | extension was successfully linked.
+[I 2026-09-24 16:21:11.447 ServerApp] jupyter_ai_router | extension was successfully linked.
+[I 2026-09-24 16:21:11.447 ServerApp] jupyter_ai_tools | extension was successfully linked.
+[I 2026-09-24 16:21:11.447 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2026-09-24 16:21:11.452 ServerApp] jupyter_server_documents | extension was successfully linked.
+[I 2026-09-24 16:21:11.455 ServerApp] jupyter_server_fileid | extension was successfully linked.
+[I 2026-09-24 16:21:11.458 ServerApp] jupyter_server_mcp | extension was successfully linked.
+[I 2026-09-24 16:21:11.461 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[W 2026-09-24 16:21:11.462 LabApp] 'token' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2026-09-24 16:21:11.465 ServerApp] ServerApp.token config is deprecated in 2.0. Use IdentityProvider.token.
+[I 2026-09-24 16:21:11.465 ServerApp] jupyterlab | extension was successfully linked.
+[I 2026-09-24 16:21:11.465 ServerApp] jupyterlab_chat | extension was successfully linked.
+[I 2026-09-24 16:21:11.465 ServerApp] jupyterlab_code_formatter | extension was successfully linked.
+[I 2026-09-24 16:21:11.465 ServerApp] jupyterlab_commands_toolkit | extension was successfully linked.
+[I 2026-09-24 16:21:11.465 ServerApp] jupyterlab_git | extension was successfully linked.
+[I 2026-09-24 16:21:11.466 ServerApp] nbdime | extension was successfully linked.
+[I 2026-09-24 16:21:11.467 ServerApp] Writing Jupyter server cookie secret to /home/ucloud/.local/share/jupyter/runtime/jupyter_cookie_secret
+[I 2026-09-24 16:21:11.610 ServerApp] notebook_shim | extension was successfully linked.
+[W 2026-09-24 16:21:11.623 ServerApp] All authentication is disabled.  Anyone who can connect to this server will be able to run code.
+[I 2026-09-24 16:21:11.623 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2026-09-24 16:21:11.624 JaiAcpClientExtension] Registered ACP event schema and listener with EventLogger.
+[I 2026-09-24 16:21:11.624 ServerApp] jupyter_ai_acp_client | extension was successfully loaded.
+[I 2026-09-24 16:21:11.625 ServerApp] jupyter_ai_chat_commands | extension was successfully loaded.
+[I 2026-09-24 16:21:11.625 PersonaManagerExtension] Registered jupyter_ai_persona_manager server extension
+[I 2026-09-24 16:21:11.625 PersonaManagerExtension] Initialized Persona Manager server extension in 0 ms.
+[I 2026-09-24 16:21:11.626 ServerApp] jupyter_ai_persona_manager | extension was successfully loaded.
+[I 2026-09-24 16:21:11.626 RouterExtension] Initialized RouterExtension in 0.00s
+[I 2026-09-24 16:21:11.626 ServerApp] jupyter_ai_router | extension was successfully loaded.
+[I 2026-09-24 16:21:11.627 ServerApp] ✅ jupyter_ai_tools extension loaded.
+[I 2026-09-24 16:21:11.627 ServerApp] jupyter_ai_tools | extension was successfully loaded.
+[I 2026-09-24 16:21:11.629 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2026-09-24 16:21:11.632 ServerApp] jupyter_server_documents | extension was successfully loaded.
+[I 2026-09-24 16:21:11.633 FileIdExtension] Configured File ID manager: ArbitraryFileIdManager
+[I 2026-09-24 16:21:11.633 FileIdExtension] ArbitraryFileIdManager : Configured root dir: /work
+[I 2026-09-24 16:21:11.633 FileIdExtension] ArbitraryFileIdManager : Configured database path: /home/ucloud/.local/share/jupyter/file_id_manager.db
+[I 2026-09-24 16:21:11.634 FileIdExtension] ArbitraryFileIdManager : Successfully connected to database file.
+[I 2026-09-24 16:21:11.634 FileIdExtension] ArbitraryFileIdManager : Creating File ID tables and indices with journal_mode = DELETE
+[I 2026-09-24 16:21:11.636 FileIdExtension] Attached event listeners.
+[I 2026-09-24 16:21:11.636 ServerApp] jupyter_server_fileid | extension was successfully loaded.
+[I 2026-09-24 16:21:11.636 ServerApp] jupyter_server_mcp | extension was successfully loaded.
+[I 2026-09-24 16:21:11.637 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2026-09-24 16:21:11.641 LabApp] JupyterLab extension loaded from /opt/conda/lib/python3.13/site-packages/jupyterlab
+[I 2026-09-24 16:21:11.641 LabApp] JupyterLab application directory is /opt/conda/share/jupyter/lab
+[I 2026-09-24 16:21:11.642 LabApp] Extension Manager is 'pypi'.
+[I 2026-09-24 16:21:11.676 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2026-09-24 16:21:11.677 ServerApp] Registered jupyterlab_chat server extension
+[I 2026-09-24 16:21:11.678 ServerApp] jupyterlab_chat | extension was successfully loaded.
+[I 2026-09-24 16:21:11.680 ServerApp] Registered jupyterlab_code_formatter server extension
+[I 2026-09-24 16:21:11.681 ServerApp] jupyterlab_code_formatter | extension was successfully loaded.
+[I 2026-09-24 16:21:11.684 ServerApp] jupyterlab_commands_toolkit extension loaded with bidirectional event communication.
+[I 2026-09-24 16:21:11.684 ServerApp] jupyterlab_commands_toolkit | extension was successfully loaded.
+[I 2026-09-24 16:21:11.689 ServerApp] jupyterlab_git | extension was successfully loaded.
+[I 2026-09-24 16:21:11.731 ServerApp] nbdime | extension was successfully loaded.
+[I 2026-09-24 16:21:11.732 ServerApp] Serving notebooks from local directory: /work
+[I 2026-09-24 16:21:11.732 ServerApp] Jupyter Server 2.20.0 is running at:
+[I 2026-09-24 16:21:11.732 ServerApp] http://0.0.0.0:8888/lab
+[I 2026-09-24 16:21:11.732 ServerApp]     http://127.0.0.1:8888/lab
+[I 2026-09-24 16:21:11.732 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 2026-09-24 16:21:11.735 RouterExtension] Registered new chat initialization callback
+[I 2026-09-24 16:21:11.735 PersonaManagerExtension] Waiting for the router to be ready
+[I 2026-09-24 16:21:11.735 PersonaManagerExtension] Router is ready, continuing with persona manager integration
+[I 2026-09-24 16:21:11.735 PersonaManagerExtension] Found jupyter-ai-router, registering persona manager callbacks
+[I 2026-09-24 16:21:11.735 RouterExtension] Registered new chat initialization callback
+[I 2026-09-24 16:21:11.736 RouterExtension] Registered chat stop callback
+[I 2026-09-24 16:21:11.738 MCPExtensionApp] Starting MCP server 'Jupyter MCP Server' on port 3001
+[I 2026-09-24 16:21:11.745 MCPExtensionApp] Initialized MCP server 'Jupyter MCP Server' on localhost:3001
+[I 2026-09-24 16:21:11.776 MCPExtensionApp] Registering tool: read_notebook
+[I 2026-09-24 16:21:11.778 MCPExtensionApp] Registering tool: read_notebook_cells
+[I 2026-09-24 16:21:11.780 MCPExtensionApp] Registering tool: read_cell
+[I 2026-09-24 16:21:11.782 MCPExtensionApp] Registering tool: add_cell
+[I 2026-09-24 16:21:11.783 MCPExtensionApp] Registering tool: insert_cell
+[I 2026-09-24 16:21:11.784 MCPExtensionApp] Registering tool: delete_cell
+[I 2026-09-24 16:21:11.785 MCPExtensionApp] Registering tool: edit_cell
+[I 2026-09-24 16:21:11.787 MCPExtensionApp] Registering tool: select_cell
+[I 2026-09-24 16:21:11.788 MCPExtensionApp] Registering tool: get_cell_id_from_index
+[I 2026-09-24 16:21:11.789 MCPExtensionApp] Registering tool: get_active_notebook
+[I 2026-09-24 16:21:11.791 MCPExtensionApp] Registering tool: get_active_cell_id
+[I 2026-09-24 16:21:11.792 MCPExtensionApp] Registering tool: get_open_documents
+[I 2026-09-24 16:21:11.794 MCPExtensionApp] Registering tool: create_notebook
+[I 2026-09-24 16:21:11.795 MCPExtensionApp] Registering tool: open_file
+[I 2026-09-24 16:21:11.796 MCPExtensionApp] Registering tool: run_cell
+[I 2026-09-24 16:21:11.799 MCPExtensionApp] Registering tool: run_all_cells
+[I 2026-09-24 16:21:11.801 MCPExtensionApp] Registering tool: list_all_commands
+[I 2026-09-24 16:21:11.802 MCPExtensionApp] Registering tool: execute_command
+[I 2026-09-24 16:21:11.805 MCPExtensionApp] Registered tools: ['read_notebook', 'read_notebook_cells', 'read_cell', 'add_cell', 'insert_cell', 'delete_cell', 'edit_cell', 'select_cell', 'get_cell_id_from_index', 'get_active_notebook', 'get_active_cell_id', 'get_open_documents', 'create_notebook', 'open_file', 'run_cell', 'run_all_cells', 'list_all_commands', 'execute_command']
+
+
+╭──────────────────────────────────────────────────────────────────────────────╮
+│                                                                              │
+│                                                                              │
+│                         ▄▀▀ ▄▀█ █▀▀ ▀█▀ █▀▄▀█ █▀▀ █▀█                        │
+│                         █▀  █▀█ ▄▄█  █  █ ▀ █ █▄▄ █▀▀                        │
+│                                                                              │
+│                                                                              │
+│                                                                              │
+│                                FastMCP 3.4.7                                 │
+│                            https://gofastmcp.com                             │
+│                                                                              │
+│                  🖥  Server:      Jupyter MCP Server, 3.4.7                   │
+│                  🚀 Deploy free: https://horizon.prefect.io                  │
+│                                                                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+╭──────────────────────────────────────────────────────────────────────────────╮
+│                          🎉 Update available: 4.0.8                          │
+│                      Run: pip install --upgrade fastmcp                      │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+
+[I 2026-09-24 16:21:11.889 MCPExtensionApp] Starting MCP server 'Jupyter MCP Server' with transport 'http' on http://localhost:3001/mcp
+INFO:     Started server process [14]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://localhost:3001 (Press CTRL+C to quit)
+[I 2026-09-24 16:21:12.304 MCPExtensionApp] ✅ MCP server started on port 3001
+[I 2026-09-24 16:21:12.305 MCPExtensionApp] Total registered tools: 18
+[I 2026-09-24 16:21:13.054 ServerApp] Skipped non-installed server(s): basedpyright, bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyrefly, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[I 2026-09-24 16:22:06.596 ServerApp] 302 GET / (@10.36.3.53) 0.72ms
+[I 2026-09-24 16:22:12.968 ServerDocsApp] Initializing room 'JupyterLab:globalAwareness'.
+[I 2026-09-24 16:22:12.970 ServerDocsApp] Room 'JupyterLab:globalAwareness' initialized.
+[I 2026-09-24 16:22:13.158 ServerDocsApp] Initiating handshake with client '8ff972b2-285e-4855-98a7-c56940039bcf' in room 'JupyterLab:globalAwareness'.
+[I 2026-09-24 16:22:13.768 ServerDocsApp] Completed handshake with client '8ff972b2-285e-4855-98a7-c56940039bcf' in room 'JupyterLab:globalAwareness'.
+[I 2026-09-24 16:22:13.790 LabApp] Build is up to date
